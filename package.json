@@ -44,7 +44,7 @@
     "rollup-plugin-postcss": "4.x",
     "svelte": "3.x",
     "svelte-typed-component": "1.x",
-    "tailwind-css-variables": "2.x",
+    "tailwind-css-variables": "3.x",
     "tailwindcss": "3.x",
     "tinycolor2": "1.x"
   },
