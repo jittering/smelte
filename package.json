@@ -33,19 +33,20 @@
   "types": "src/index.d.ts",
   "browserslist": "last 3 version",
   "svelte": "src/index.js",
-  "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "merge-deep": "^3.0.3",
-    "postcss": "^8.2.6",
-    "postcss-import": "^14.0.0",
-    "postcss-input-range": "^4.0.0",
-    "postcss-url": "^10.1.1",
-    "rollup-plugin-postcss": "^4.0.0",
-    "svelte": "^3.31.2",
-    "svelte-typed-component": "^1.1.1",
-    "tailwind-css-variables": "^2.0.3",
-    "tailwindcss": "^2.0.3",
-    "tinycolor2": "^1.4.2"
+  "dependencies": {},
+  "peerDependencies": {
+    "autoprefixer": "10.x",
+    "merge-deep": "3.x",
+    "postcss": "8.4.x",
+    "postcss-import": "14.x",
+    "postcss-input-range": "4.x",
+    "postcss-url": "10.x",
+    "rollup-plugin-postcss": "4.x",
+    "svelte": "3.x",
+    "svelte-typed-component": "1.x",
+    "tailwind-css-variables": "2.x",
+    "tailwindcss": "3.x",
+    "tinycolor2": "1.x"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -78,7 +79,7 @@
     "rollup-plugin-terser": "^5.3.1",
     "sapper": "^0.28.10",
     "sirv": "^0.4.6",
-    "svelte-preprocess": "^3.9.11",
+    "svelte-preprocess": "^4.10.1",
     "svelte-waypoint": "^0.1.4"
   }
 }
